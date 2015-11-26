@@ -4,10 +4,33 @@
 	<title>Pushkin Abbott</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+	
+<script src="https://cdn.jsdelivr.net/vivus/0.2.3/vivus.min.js"></script>
 </head>
 <body>
 
-<h1 id="header">         Pushkin Abbott </h1>
+<h1 id="header">Pushkin Abbott </h1>
+
+<svg id="my-svg" width="190px" height="160px" version="1.1" >
+  <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="none"/>
+</svg>
+ 
+<script>
+  new Vivus('my-svg', {duration: 200});
+
+   var myVivus = new Vivus('my-svg');
+   
+   myVivus
+  .stop()
+  .reset()
+  .play(2)
+  .play(-2)
+
+console.table(myVivus.map);
+
+</script>
+
+
 
 </body>
 </html>
