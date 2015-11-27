@@ -23,23 +23,52 @@
 </div>
 
    <nav id="pos" class="cl-effect-7">
-    <a href="#" data-hover="About Me"> About Me</a>
-    <a href="#" data-hover="Resume"> Resume</a>
-    <a href="#" data-hover="Projects"> Projects </a> 
+    <a id="one" href="#about-me" data-hover="About Me"> About Me</a>
+    <a id="two"href="#" data-hover="Resume"> Resume</a>
+    <a id="three" href="#" data-hover="Projects"> Projects </a> 
    </nav>
 
 <script type="text/javascript">
+
+//$(document).ready(function(){
+ // $("#one").on("click", function (e) {
+  //  e.preventDefault();
+
+  //$("body, html").animate({
+   // scrollTop: $( $(this).attr('href')).offset().top
+  //}, 1400, 'swing');
+
+
+
+$(document).ready(function(){
+  $('a[href^="#"]').on('click',function(e){
+    e.preventDefault();
+    var target=this.hash;
+    var $target=$(target);
+    $('html, body').stop().animate({'scrollTop':$target.offset().top},6000,'swing');});});
+
+
+
+
+
+
+//  });
+//});
  
 </script>
 
 </div>
 
 <div id="about-me">
-<h2 class="heads" id="about-me-text">About Me</h2>
+<h2 class="heads" >About Me</h2>
+<div id="about-me-left">
+  <img width="250px" height= "250px" src="images/profile.gif">
+</div>
 <p id="about-me-text">
   In web design, the most common way to achieve this is by simply adding a jQuery plugin to a website. Doing this unfortunately has a few disadvantages. These plugins mostly attach an event handler to the scroll event of the window object. This leads to tons of events being handled via JavaScript (handling the scroll event can easily cause performance issues and should be considered carefully). To move the mentioned layers, background positions of images get calculated and set to the depending elements, which then additionally causes a lot of DOM manipulations.In short: parallax done with JavaScript can decrease the scrolling performance of a website quite quickly.
 </p>
 </div>
+
 
 
 <!--<svg id="my-svg" width="190px" height="160px" version="1.1" >
