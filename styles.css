@@ -3,13 +3,9 @@
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 800%;
 	text-align: left;
-	padding-left: 50px;
+	padding-left: 5%;
+
 }
-
- @media only screen and (max-width: 400px) {
-                    body { font-size:500%;}
-     }
-
 
  html,body { 
  background: url(images/803.jpg) no-repeat center center fixed; 
@@ -24,13 +20,20 @@
 
 
 #pos {
-	margin-left: 150px;
+	float: left;
+	padding-left: 7%;
+	padding-right: 5%;
 	color: #3AA5FF;
+}
+
+#buttons {
+	padding-right: 5%;
+	padding-left: 5%; 
+
 }
 
 #about-me {
 	margin-left: 50px;
-	margin-top: 37%;
 	margin-right: 50px;
 }
 #about-me-text{
@@ -41,8 +44,8 @@
 }
 
 #about-me-left {
-	width: 400px;
-	height: 400px;
+	width: 250px;
+	height: 250px;
 	margin-left: 3%;
 	margin-top: 2%;
 	margin-bottom: 10%
@@ -55,6 +58,7 @@
 	font-family: 'Raleway' , sans-serif;
 	padding-left: 5px;
 	padding-top: 5px;
+
 }
 
 #headshot {
@@ -64,14 +68,88 @@
 }
 
 #icons {
-	margin-top: 50%;
 	margin-left:14%;
-	margin-right: 40%;
+	margin-right: 10%;
+	max-height: 30px;
+	margin-top: 80%;
+	padding-left: 8%;
 
 }
 
 #social #social1, #social2{
-	margin-left: 2%;
+	margin-left: 3%;
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
 }
+
+
+#top {
+	height: 600px;
+}
+
+
+
+ @media only screen and (max-width: 880px) {
+                    #header{ font-size: 700%;}
+                    #about-me-text {
+                    	font-size: 22px;
+                    }
+     }
+
+ @media only screen and (max-width: 768px) {
+                    #header{ 
+                    	font-size: 600%;
+                    	text-align: center;
+                    }
+                    #about-me-text {
+                    	font-size: 20px;
+                    }
+     }
+
+  @media only screen and (max-width: 700px) {
+                   #one , #two, #three {
+                   	font-size: 18px;
+                   }
+     }
+
+  @media only screen and (max-width: 650px) {
+                    #header{ 
+                    	font-size: 650%;
+                    	text-align: center;
+                    	margin-top: -10px;
+                    }
+                     #one , #two, #three {
+                   	text-align: center;
+
+                   }
+                    #about-me-text {
+                    	font-size: 20px;
+                    	width: 100%;
+                    	padding-left: 10px;
+                    	padding-right: 10px;
+                    	display: inline-block;
+                    }
+                    #about-me-left {
+                    	width: 100%;
+                    	display: inline-block;
+                    	padding-left: 25%;
+                    }
+                    #icons {
+                    	margin-top: 50%;
+                    	margin-left: 8%;
+                    }
+                    #text {
+                    	width: 100%;
+                    	display: inline-block;
+                    }
+
+                    #head  {
+                    	text-align: center;
+                    }
+
+     }
+
 
 
