@@ -60,8 +60,8 @@ $(document).ready(function(){
 
 <div id="about-me-left">
 
-<div id="headshot">
-<img style= "width: auto; height:auto;max-width:250px;max-height:200px" src="images/profile_final.gif">
+<div id="pics">
+<img id="headshot" style= "width: auto; height:auto;max-width:250px;max-height:200px" src="images/profile_final.gif">
 </div>
   
  <div id="icons">
@@ -84,6 +84,7 @@ $(document).ready(function(){
   In web design, the most common way to achieve this is by simply adding a jQuery plugin to a website. Doing this unfortunately has a few disadvantages. These plugins mostly attach an event handler to the scroll event of the window object. This leads to tons of events being handled via JavaScript (handling the scroll event can easily cause performance issues and should be considered carefully). To move the mentioned layers, background positions of images get calculated and set to the depending elements, which then additionally causes a lot of DOM manipulations.In short: parallax done with JavaScript can decrease the scrolling performance of a website quite quickly.
 </p>
 </div>
+
 </div>
 
 </div>
