@@ -35,14 +35,19 @@
 
 <script type="text/javascript">
 
+var mrg = 0;
+
 $(document).ready(function(){
   $("#one").on("click", function (e) {
     e.preventDefault();
 
+  $("#about-me").css("margin-top" , mrg + "px");
+
   $("body, html").animate({
     scrollTop: $( $(this).attr('href')).offset().top }, 1400, 'swing');
 
-}); });
+});
+});
  
 </script>
 
