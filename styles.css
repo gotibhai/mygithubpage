@@ -6,17 +6,22 @@
 	padding-left: 50px;
 }
 
+ @media only screen and (max-width: 400px) {
+                    body { font-size:500%;}
+     }
 
-html { 
-  /*background: url(80.jpg) no-repeat center center fixed; 
+
+ html,body { 
+ background: url(images/803.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #464646;
 
-  background: url(images/80.jpg) no-repeat ;
-  background-size: 100%;
 }
+
 
 #pos {
 	margin-left: 150px;
@@ -25,7 +30,7 @@ html {
 
 #about-me {
 	margin-left: 50px;
-	margin-top: 450px;
+	margin-top: 37%;
 	margin-right: 50px;
 }
 #about-me-text{
@@ -36,10 +41,11 @@ html {
 }
 
 #about-me-left {
-	width: 200px;
-	height: 100px;
-	margin-left: 10px;
-	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 10%
 	text-align: left;
 	float: left;
 }
@@ -51,14 +57,21 @@ html {
 	padding-top: 5px;
 }
 
-#social {
-	margin-left: 65px;
-	margin-top: 10px;
+#headshot {
+	float: left;
+	margin-left: 5%;
+	margin-top: 0px;
 }
 
-#social1, #social2{
-	margin-left: 10px;
-	margin-top: 10px;
+#icons {
+	margin-top: 50%;
+	margin-left:14%;
+	margin-right: 40%;
+
+}
+
+#social #social1, #social2{
+	margin-left: 2%;
 }
 
 
