@@ -24,7 +24,13 @@
 	float: left;
 	padding-left: 7%;
 	padding-right: 5%;
-	color: #3AA5FF;
+}
+
+#photography {
+  float: right;
+  margin-top: -6.5%;
+  margin-right: 1%;
+  color: #3AA5FF;
 }
 
 #buttons {
