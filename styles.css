@@ -1,4 +1,228 @@
 #header {
-	color: pink;
+	color: #FF727A;
 	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 800%;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+
 }
+
+ html,body { 
+ background: url(images/803.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #464646;
+
+}
+
+#copyright {
+  float : right;
+
+}
+#pos {
+	float: left;
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+#photography {
+  float: right;
+  margin-top: -6.5%;
+  margin-right: 1%;
+  color: #3AA5FF;
+}
+
+#buttons {
+	padding-right: 5%;
+	padding-left: 5%; 
+
+}
+
+#about-me {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#about-me-text{
+	font-size: 25px;
+	font-family: 'Raleway' , sans-serif;
+	padding-left: 300px;
+	padding-top: 10px;
+}
+
+#about-me-left {
+	width: 250px;
+	height: 240px;
+	margin-left: 3%;
+	margin-top: 2%;
+	float: left;
+}
+
+#pics {
+	width: 100%;
+	height: 210px;
+	margin: auto;
+}
+
+.heads{
+	font-size: 60px;
+	font-family: 'Raleway' , sans-serif;
+	padding-left: 5px;
+	padding-top: 5px;
+
+}
+
+#headshot {
+	float: left;
+	margin-left: 5%;
+	margin-top: 0px;
+	position: relative;
+}
+
+#icons {
+	margin: auto;
+	max-height: 30px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+
+}
+
+#social {
+	margin-left: 40px;
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+
+}
+
+
+
+ #social1, #social2{
+	margin-left: 10px;
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+}
+
+
+#top {
+	height: 600px;
+}
+
+@media only screen and (max-width: 1049px) {
+                    #photography {
+                      padding-top: 15px;
+                    }
+     }
+
+@media only screen and (max-width: 1187px) {
+                    #about-me-text {
+                      height: 320px;
+                    }
+                    #photography {
+                      margin-left: 277px;
+                      font-size: 15px;
+                      float:left;
+                    }
+     }
+
+@media only screen and (max-width: 842px) {
+                    #photography {
+                      padding-top: 30px;
+                    }
+     }
+
+ @media only screen and (max-width: 905px) {
+                    #header{ font-size: 700%;}
+                    #about-me-text {
+                    	font-size: 22px;}
+                    #photography {
+                      font-size: 12px;
+                      margin-top: -12%;
+
+                    }
+     }
+
+ @media only screen and (max-width: 790px) {
+                    #header{ 
+                    	font-size: 600%;
+                    	text-align: center;
+                    }
+                    #about-me-text {
+                    	font-size: 20px;
+                    }
+                     #photography {
+                      font-size: 11px;
+                      padding-top: 0px;
+                    }
+     }
+
+  @media only screen and (max-width: 713px) {
+                    #header{ 
+                    	font-size: 650%;
+                    	text-align: center;
+                    }
+                    #photography {
+                      font-size: 13px;
+                      float: left;
+                      width: 100%;
+                      margin-left: 0px;
+                      padding-left: 0px;
+                      margin-top: -15%;
+
+                    }
+                     #one , #two, #three {
+                   	text-align: center;
+                   	font-size: 18px;
+
+                   }
+                    #about-me-text {
+                    	font-size: 20px;
+                    	width: 100%;
+                      padding-left: 20px;
+                      padding-right: 20px;
+                      display: inline-block;
+                    }
+                    #about-me-left {
+                    	width: 80%;
+                    	display: block;
+                    	float: none;
+                    	padding-left: 10%;
+                    	padding-right: 10%;
+                    	margin: 0 auto;
+                    	position: relative;
+                    }
+                    #about-me {
+                    	margin: auto;
+                    }
+                    #headshot {
+                    	display: block;
+                    	margin: auto;
+                    	width: 100%;
+                    	float: none;
+                    }
+                    #icons {
+                    	display: block;
+                    	margin: auto;                    	
+                    	width: 200px;
+                    	text-align: left;
+                    }
+                    #text {
+                    	width: 100%;
+                    	display: inline-block;
+                    }
+
+                    #head  {
+                    	text-align: center;
+                    }
+
+     }
+
+
+
