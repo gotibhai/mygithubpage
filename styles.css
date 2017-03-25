@@ -8,7 +8,133 @@
 
 }
 
- html,body { 
+#mainblock{
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+#name {
+  font-family: 'Space Mono', monospace;
+  font-size: 35px;
+}
+
+#about{
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+}
+
+#slogan {
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.heading {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+}
+
+#meaning {
+  font-size: 15px;
+}
+
+#ticks{
+  width: 100%;
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#item1 , #item2 , #item3, #link1 , #link2 , #link3{
+  display: inline-block;
+}
+#photography_blog{
+  height: 266px;
+  width: 400px;
+  background-image: url(images/blog_2.png)
+}
+
+#btfc {
+  height: 266px;
+  width: 400px;
+  background-image: url(images/btfc.png)
+}
+
+#senndat{
+  height: 266px;
+  width: 400px;
+  background-image: url(images/senndat.png)
+}
+
+#gita{
+  margin-left: 10px;
+}
+
+#description {
+  margin-left: 10px;
+}
+
+#links{
+  font-family: 'Space Mono', monospace;
+  font-size: 23px;
+  margin-top: 40px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 1370px) { 
+  #slogan{
+    margin-top: 250px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 962px){ 
+  #slogan{
+    margin-left: 100px;
+  }
+  #mainblock{
+    margin-left: 100px;
+  }
+  #links{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 576px){ 
+  #slogan{
+    margin-left: 60px;
+  }
+  #mainblock{
+    margin-left: 60px;
+  }
+  #links{
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 425px){ 
+  #slogan{
+    margin-left: 20px;
+  }
+  #mainblock{
+    margin-left: 20px;
+  }
+  #links{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 912px){
+  #slogan{
+    margin-top: 520px;
+  }
+}
+
+/* html,body { 
  background: url(images/803.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,23 +143,11 @@
   background-attachment: fixed;
   background-color: #464646;
 
-}
-
-#copyright {
-  float : right;
-
-}
-#pos {
+}*/
+/*#pos {
 	float: left;
 	padding-left: 7%;
 	padding-right: 5%;
-}
-
-#photography {
-  float: right;
-  margin-top: -6.5%;
-  margin-right: 1%;
-  color: #3AA5FF;
 }
 
 #buttons {
@@ -223,6 +337,6 @@
                     }
 
      }
-
+*/
 
 
