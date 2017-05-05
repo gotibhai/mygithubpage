@@ -39,6 +39,12 @@
               <div id="btfc"></div>
             </a>
           </div> 
+
+          <div id="item4">
+            <a href="http://cookformeplease.herokuapp.com/">
+              <div id="cookforme"></div>
+            </a>
+          </div> 
         </div>       
       </div>
     </div>
@@ -95,6 +101,13 @@
            $(this).fadeTo("slow" ,0.7);
   })  
       $("#senndat").on("mouseleave",function(){
+           $(this).fadeTo("slow" ,1);
+  })
+
+      $("#cookforme").on("mouseenter",function(){
+           $(this).fadeTo("slow" ,0.7);
+  })  
+      $("#cookforme").on("mouseleave",function(){
            $(this).fadeTo("slow" ,1);
   })
 })

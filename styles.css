@@ -41,12 +41,12 @@
 
 #ticks{
   width: 100%;
-  height: 300px;
+  height: 600px;
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
-#item1 , #item2 , #item3, #link1 , #link2 , #link3{
+#item1 , #item2 , #item3, #item4, #link1 , #link2 , #link3{
   display: inline-block;
 }
 #photography_blog{
@@ -67,6 +67,12 @@
   background-image: url(images/senndat.png)
 }
 
+#cookforme{
+  height: 266px;
+  width: 400px;
+  background-image: url(images/pasta.png)
+}
+
 #gita{
   margin-left: 10px;
 }
@@ -82,7 +88,7 @@
   margin-right: 10px;
   font-weight: bold;
   margin-left: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -152,6 +158,12 @@
   height: 200px;
   width: 300px;
   background-image: url(images/senndat_small.png)
+}
+
+#cookforme{
+  height: 200px;
+  width: 300px;
+  background-image: url(images/pasta_small.png)
 }
 
 }
