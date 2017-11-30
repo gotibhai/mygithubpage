@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog | Post archive
+title: Good 'ol Blogs | Post archive
 ---
 
 ## Blog Posts
