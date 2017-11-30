@@ -27,6 +27,8 @@ github:
 
 # pages_list:       
 #   Pushkin's Blog: '/blog/'
+
+
 # Gems
 gems:
   - jekyll-paginate
