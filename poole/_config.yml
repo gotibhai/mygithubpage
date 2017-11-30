@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
+title:               Blog
 tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+url:                 http://pushkinabbott.me
 paginate:            1
 baseurl:             ""
 
@@ -17,7 +17,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Pushkin Abbott
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
