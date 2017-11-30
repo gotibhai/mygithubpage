@@ -6,7 +6,7 @@ title:               Blog
 tagline:             The Jekyll Butler
 url:                 http://pushkinabbott.me
 paginate:            1
-baseurl:             "./poole"
+baseurl:             "poole"
 
 # Assets
 #
