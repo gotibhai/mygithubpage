@@ -27,7 +27,7 @@ github:
   repo:              https://github.com/poole/poole
 
 pages_list:       
-  chill: '/blog'
+  chill: '/chill/'
 # Gems
 gems:
   - jekyll-paginate
