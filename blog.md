@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Meditations | Post archive
+title: Blog | Post archive
 ---
 
 ## Blog Posts

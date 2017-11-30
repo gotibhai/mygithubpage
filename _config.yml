@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Vibhanshu
-tagline:             From a peasant to a prince to a... ;)
-url:                 https://www.vibhanshu.io
+title:               Pushkin Abbott's Blog
+tagline:             por favor
+url:                 https://www.pushkinabbott.me
 #paginate:            1
 baseurl:             ""
 # Assets
@@ -16,9 +16,9 @@ sass:
 
 # About/contact
 author:
-  name:              Vibhanshu Bhardwaj
-  url:               https://www.facebook.com/mcvib
-  email:             bhardwajvibhanshu@gmail.com
+  name:              Pushkin Abbott
+  url:               https://www.facebook.com/abbott.pushkin
+  email:             abbott.pushkin@gmail.com
 
 # Custom vars
 version:             0.0.1
@@ -26,7 +26,7 @@ github:
   repo:  
 
 pages_list:       
-  Meditations: '/meditations/'
+  Blog: '/blog/'
 # Gems
 gems:
   - jekyll-paginate
