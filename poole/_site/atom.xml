@@ -4,7 +4,7 @@
  <title>Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-29T21:10:17-05:00</updated>
+ <updated>2017-11-29T21:17:03-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Pushkin Abbott</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/2016/01/03/introduction/"/>
    <updated>2016-01-03T00:00:00-05:00</updated>
    <id>http://localhost:4000/2016/01/03/introduction</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Chal be chutiye &lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
 
