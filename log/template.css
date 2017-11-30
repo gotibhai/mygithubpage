@@ -1,0 +1,19 @@
+.logContainer {
+	padding: 70px 0;
+	margin: auto;
+	text-align: center;
+}
+.tasks {
+	max-width: 500px;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+}
+.center {
+	margin: auto;
+	text-align: center;
+	list-style-position:inside;
+}
+.li {
+	padding: 5px;
+}

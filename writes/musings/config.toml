@@ -1,0 +1,5 @@
+baseURL = "http://www.vibhanshu.io/w/"
+languageCode = "en-us"
+title = "Musings"
+theme= "ananke"
+publishDir = "docs"
