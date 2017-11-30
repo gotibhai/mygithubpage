@@ -25,8 +25,8 @@ version:             0.0.1
 github:
   repo:  
 
-# pages_list:       
-#   Pushkin's Blog: '/blog/'
+pages_list:       
+	Blog: '/blog/'
 
 
 # Gems
