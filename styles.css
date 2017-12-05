@@ -27,13 +27,19 @@ html,body {
 }
 
 .myimg{
-  /*height: 300px;
-  width: 390px;*/
+  height: 300px;
+  width: 390px;
   margin-top: 10%;
  /* background-image: url(images/7s.jpg);
   background-size: contain;
   position: absolute; */
   z-index: 1;
+}
+
+.pic7{
+  max-width: 100%;
+  height: auto;
+  width:87%;
 }
 
 .myimg2{
@@ -110,7 +116,7 @@ html,body {
   margin-bottom: 10px;
 }
 
-#item1 , #item2 , #item3, #item4, #link1 , #link2 , #link3{
+#item1 , #item2 , #item3, #item4, #link1 , #link2 , #link3 , #link4, #link5{
   display: inline-block;
 }
 
@@ -145,23 +151,23 @@ html,body {
 #links{
   font-family: 'Space Mono', monospace;
   font-size: 23px;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   margin-right: 10px;
   font-weight: bold;
-  margin-left: 150px;
+  /*margin-left: 150px;*/
   margin-bottom: 40px;
 }
 
 
 
-/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) 
 @media only screen and (max-width: 1370px) { 
   #slogan{
     margin-top: 250px;
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+/* Medium devices (desktops, 992px and up) 
 @media only screen and (max-width: 983px){ 
   #slogan{
     margin-left: 100px;
@@ -228,3 +234,4 @@ html,body {
 }
 
 }
+*/
