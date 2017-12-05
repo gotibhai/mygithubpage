@@ -17,7 +17,7 @@ The first check would be to highlight these words for them. People usually stutt
 
 My task was to figure out where does a person stutter in a speech. Sounds simple, it's not trust me!
 
-The first finding was the black box API's by [Google](https://cloud.google.com/speech/) ,[IBM](https://www.ibm.com/watson/services/speech-to-text/), [Twilio](https://www.twilio.com/speech-recognition) were far from accurate. So they were of no help. They were even unable to capture normal speech properly.
+The first finding was the black box API's by [Google](https://cloud.google.com/speech/), [IBM](https://www.ibm.com/watson/services/speech-to-text/), [Twilio](https://www.twilio.com/speech-recognition) were far from accurate. So they were of no help. They were even unable to capture normal speech properly.
 
 I then decided to visualize the audio to see if there was a visible difference where someone stutters. As you can see below in the waveform, the area she stutters has a high and almost similar amplitude and appears as a chunk. I figured if you could search an audio for chunks with these properties, you could find where they were stuttering, however after looking extensively and not finding relevant information, I decided to move on.
 
@@ -32,10 +32,10 @@ This was the audio file I was experimenting with.
 ![Amplitude of the Audio]({{ "https://raw.githubusercontent.com/gotibhai/pushkinabbott/gh-pages/images/blogs/amp.png" }})
 
 
-* Talk about the diference between waveform and spectrogram ** 
+* Talk about the diference between waveform and spectrogram *
 
 
-Next, I stumbled upon something called time-stamped spech-to-text. The service I stumbled upon was called [Gentle]( add link to gentle). It's basically like an API which you call by passing an audio and it's transcript, you can even use the service right on their website.
+Next, I stumbled upon something called time-stamped spech-to-text. The service I stumbled upon was called [Gentle](https://github.com/lowerquality/gentle). It's basically like an API which you call by passing an audio and it's transcript, you can even use the service right on their website.
 
 It will try to align the audio and transcript and return a json with every word it found in the transcript and aligned in the audio with the start and end time. It'll also return the syllables it heard in that audio piece. In addition to all these successfull alignments, It also returns objects which it could not find in the transcript or it couldn't find in the transcript. 
 

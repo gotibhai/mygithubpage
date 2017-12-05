@@ -1,3 +1,21 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+.container , .row{
+  height: 100%;
+}
+
+#page-profile{
+ display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+
+
 #header {
 	color: #FF727A;
 	font-family: 'Shadows Into Light Two', cursive;
@@ -8,14 +26,56 @@
 
 }
 
+.myimg{
+  /*height: 300px;
+  width: 390px;*/
+  margin-top: 10%;
+ /* background-image: url(images/7s.jpg);
+  background-size: contain;
+  position: absolute; */
+  z-index: 1;
+}
+
+.myimg2{
+/*  height: 262px;
+  width: 390px;*/
+  margin-left: 30%;
+  margin-top: -10%;
+  z-index: 12;
+}
+
+.myimg3{
+/*  height: 300px;
+  width: 300px;*/
+  float: left;
+  margin-top: -10%;
+  z-index: 100;
+}
+
+
+/*#picturedudeabides{
+  height: 259px;
+  width: 390px;
+  margin-left: 30%;
+  margin-top: -10%;
+  background-image: url(images/dudeabides.jpg);
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+}*/
+
+/*.row { height: 100%;}*/
+
 #mainblock{
-  margin-top: 100px;
-  margin-left: 150px;
+  /*margin-top: 40%;*/
+ /* height: 100%;*/
+  /*margin-bottom: 30%;*/
 }
 
 #name {
   font-family: 'Space Mono', monospace;
   font-size: 35px;
+  margin-bottom: 10%;
 }
 
 #about{
@@ -35,9 +95,13 @@
   font-size: 20px;
 }
 
+
+
 #meaning {
   font-size: 15px;
 }
+
+
 
 #ticks{
   width: 100%;
@@ -75,10 +139,6 @@
 }
 
 #gita{
-  margin-left: 10px;
-}
-
-#description {
   margin-left: 10px;
 }
 
