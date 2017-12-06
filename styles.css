@@ -8,14 +8,26 @@ html,body {
   padding-top: 10px;
 }
 
+.col {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
 #page-profile{
  display: flex;
   justify-content: center;
   align-items: center; 
+  height: 100vh;
 }
 
+#projects1{
+  height: 100vh;
+}
 
-
+#projectHeading {
+    font-family: 'Space Mono', monospace;
+    font-size: 35px;
+    margin-bottom: 3%;
+}
 
 #header {
 	color: #FF727A;
@@ -35,11 +47,19 @@ html,body {
   background-size: contain;
   position: absolute; */
   z-index: 1;
+
 }
 
 .pic7{
   max-width: 100%;
   height: auto;
+
+}
+
+.same-size{
+  height: 400px;
+  width: 400px;
+  border: 1px black solid;
 }
 
 .myimg2{
@@ -56,6 +76,8 @@ html,body {
   float: left;
   /*margin-top: -10%;*/
   z-index: 100;
+  margin-bottom: 20px;
+  margin-left: 22px;
 }
 
 
