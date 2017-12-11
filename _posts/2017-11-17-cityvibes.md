@@ -4,7 +4,7 @@ title: City Vibes, Solution for Smart Cities
 date: 2017-11-18
 ---
 
-## ([Hack Western](https://www.trentu.ca/) )
+## [Hack Western](https://www.trentu.ca/)
 
 4:10 on Friday, I get an email saying there are extra spots on the bus for Hack Western which leaves at 4:30. 
 Yup, talk about planning. Nonetheless, As I was riding high on my win from Electric hacks, I was all ready to adventure to Western
