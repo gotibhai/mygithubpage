@@ -26,7 +26,7 @@ github:
   repo:  
 
 pages_list:       
-  Blog: '/blog/'
+  Blog: '/blog'
 
 
 # Gems
