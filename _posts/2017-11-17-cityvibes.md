@@ -5,9 +5,8 @@ date: 2017-11-18
 permalink: "/blog/:title"
 ---
 
-## [Hack Western](https://www.trentu.ca/)
+## [Hack Western](http://www.uwo.ca/)
 
-redirect_from: "/2017/11/17/cityvibes"
 
 4:10 on Friday, I get an email saying there are extra spots on the bus for Hack Western which leaves at 4:30. 
 Yup, talk about planning. Nonetheless, As I was riding high on my win from Electric hacks, I was all ready to adventure to Western
@@ -17,7 +16,7 @@ Going without a team, I met with a friend on the bus and we got chatting and I f
 
 We tried to solve the problem of ** Noise Pollution ** in urban cities. 
 
-Our idea was to develop a smart device of sorts with a ([GPS Module]( Wikipedia GPS ) ) and a microphone. This device would eventually 
+Our idea was to develop a smart device of sorts with a ([GPS Module](https://en.wikipedia.org/wiki/Global_Positioning_System)) and a microphone. This device would eventually 
 be hooked on to bikes which go around the city and can capture the noise from around the area and we can then plot this information as a heat map on a web app. In addition to the heat map, we can also classify the sounds using Audio Classification and figure out what's the source of that noise. 
 
 Once again, I was responsible for ** dealing with the Audio ** 
@@ -26,13 +25,13 @@ I wanted to experiment and I decided that I'll train a neural network from scrat
 The goal was to classify audio on the basis of the ([Urban Sound Dataset](https://serv.cusp.nyu.edu/projects/urbansounddataset/))
 I started with the tutorial below. Great Explanation by the way..
 
-([Urban Sound Classification](https://aqibsaeed.github.io/2016-09-03-urban-sound-classification-part-1/) )
+([Urban Sound Classification](https://aqibsaeed.github.io/2016-09-03-urban-sound-classification-part-1/))
 
 I was going slow and steady, trying to understand the feature extraction phase. 
 The four main features of audio classification used were :
 1) ([melspectrogram](https://librosa.github.io/librosa/generated/librosa.feature.melspectrogram.html)): Compute a Mel-scaled power spectrogram
 2) ([Mel-frequency-cepstrum(mfcc)](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)): Mel-frequency cepstral coefficients
-3) ([Chroma-feature](https://en.wikipedia.org/wiki/Chroma_feature)) / ([Chroma-stft](https://librosa.github.io/librosa/generated/librosa.feature.chroma_stft.html)): Compute a chromagram from a waveform or power spectrogram
+3) ([Chroma-feature](https://en.wikipedia.org/wiki/Chroma_feature))/([Chroma-stft](https://librosa.github.io/librosa/generated/librosa.feature.chroma_stft.html)): Compute a chromagram from a waveform or power spectrogram
 4) [Special-Contrast](https://librosa.github.io/librosa/generated/librosa.feature.spectral_contrast.html)): Compute spectral contrast, using method defined in ([this paper](http://ieeexplore.ieee.org/document/1035731/))
 5) ([Tonnetz](https://librosa.github.io/librosa/generated/librosa.feature.tonnetz.html)): Computes the tonal centroid features (tonnetz), following the method described in ([this paper](https://dl.acm.org/citation.cfm?id=1178727))
 
