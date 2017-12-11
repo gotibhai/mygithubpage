@@ -4,8 +4,6 @@ title: Stutter.io, Playing with Audio Processing
 date: 2017-11-18
 ---
 
-**Hello World** is the first program I ever wrote and I share a very deep bond with it!
-
 Adventures at Electric Hacks ( [Trent University](https://www.trentu.ca/) )
 
 Hackathons are fun, weekend getaway's and I've recently been *sort of* addicted to them. The idea of going to a new place, meeting innovators and other hackers and the idea of actually hacking together a product/service in the spam of 36 hours is very exciting. 
@@ -39,10 +37,4 @@ Next, I stumbled upon something called time-stamped spech-to-text. The service I
 
 It will try to align the audio and transcript and return a json with every word it found in the transcript and aligned in the audio with the start and end time. It'll also return the syllables it heard in that audio piece. In addition to all these successfull alignments, It also returns objects which it could not find in the transcript or it couldn't find in the transcript. 
 
-
-
-
-I started with zero knowledge of Audio Processing 
-
-
-
+To be continued ...
