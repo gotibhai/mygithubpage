@@ -1,6 +1,6 @@
 ---
 layout: post
-title: City Vibes, Solution for Smart Cities
+title: CityVibes, Solution for Smart Cities
 date: 2017-11-18
 permalink: "/blog/:title"
 ---
@@ -14,12 +14,12 @@ without any preparation, extra pair of clothes (Not the best idea in retrospect 
 
 Going without a team, I met with a friend on the bus and we got chatting and I finally decided to work with them!
 
-We tried to solve the problem of ** Noise Pollution ** in urban cities. 
+We tried to solve the problem of **Noise Pollution** in urban cities. 
 
 Our idea was to develop a smart device of sorts with a ([GPS Module](https://en.wikipedia.org/wiki/Global_Positioning_System)) and a microphone. This device would eventually 
 be hooked on to bikes which go around the city and can capture the noise from around the area and we can then plot this information as a heat map on a web app. In addition to the heat map, we can also classify the sounds using Audio Classification and figure out what's the source of that noise. 
 
-Once again, I was responsible for ** dealing with the Audio ** 
+Once again, I was responsible for **dealing with the Audio** 
 
 I wanted to experiment and I decided that I'll train a neural network from scratch. 
 The goal was to classify audio on the basis of the ([Urban Sound Dataset](https://serv.cusp.nyu.edu/projects/urbansounddataset/))
@@ -47,7 +47,7 @@ The code is up on github ([here](https://github.com/gotibhai/NoisePollutionDetec
 Finally, I trained the network with a 72% accuracy, which was considered pretty accurate in this usecase!
 
 Notes: 
-One of the main lessons I learnt was ** ALWAYS USE JUPYTER NOTEBOOKS ** 
+One of the main lessons I learnt was **ALWAYS USE JUPYTER NOTEBOOKS** 
 I stupidly wrote scripts and had to run them from scratch again and again in the terminal. 
 
 
