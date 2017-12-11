@@ -2,6 +2,7 @@
 layout: post
 title: Stutter.io, Playing with Audio Processing
 date: 2017-11-18
+permalink: "/blog/:title"
 ---
 
 Adventures at Electric Hacks ( [Trent University](https://www.trentu.ca/) )
